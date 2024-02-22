@@ -11,8 +11,6 @@ for(let i = 1; i <= limit; i++){
     // metto il box nel container
     container.append(box);
 
-    
-
     if(i % 15 === 0){
         box.innerHTML = "FizzBuzz";
         box.classList.add("red");

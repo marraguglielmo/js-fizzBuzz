@@ -31,17 +31,22 @@ h1{
     margin: 5px;
     box-shadow: 0px 5px 4px black;
     font-size: 2rem;
+    transition: box-shadow 1s;
 }
 
-/* fizz =  */
+.box:hover{
+    box-shadow: 0px 15px 20px 7px black;
+}
+
+/* fizzbuzz =  */
 .red{
     background-color: #B20D30;
 }
-
+/* buzz */
 .green{
     background-color: #3F784C;
 }
-
+/* fizz */
 .blue{
     background-color: #3F84E5;
 }
