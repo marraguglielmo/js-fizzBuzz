@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+body{
+    font-family: 'Anta';
+    background-color: #ffbe8680;
+}
+
+h1{
+    text-align: center;
+    font-size: 3.5rem;
+}
+
 .container{
     margin: 0 auto;
-    width: fit-content;
+    width: 90%;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -10,9 +22,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 140px;
+    width: 180px;
     aspect-ratio: 1/1;
-    background-color: rgb(156, 44, 44);
+    background-color: #C17817;
     border: 2px solid black;
+    border-radius: 15px;
     color: white;
+    margin: 5px;
+    box-shadow: 0px 5px 4px black;
+    font-size: 2rem;
+}
+
+/* fizz =  */
+.red{
+    background-color: #B20D30;
+}
+
+.green{
+    background-color: #3F784C;
+}
+
+.blue{
+    background-color: #3F84E5;
 }

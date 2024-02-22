@@ -15,10 +15,13 @@ for(let i = 1; i <= limit; i++){
 
     if(i % 15 === 0){
         box.innerHTML = "FizzBuzz";
+        box.classList.add("red");
     }else if(i % 5 == 0){
         box.innerHTML = "Buzz";
+        box.classList.add("green");
     }else if(i % 3 === 0){
         box.innerHTML = "Fizz";
+        box.classList.add("blue");
     }else{
         box.innerHTML = i;
     }
